@@ -24,7 +24,7 @@ $(".btn").click(function () {
 function checkAnswer(currentLevel) {
   if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
     // console.log("success");
-    console.log(userClickedPattern.length);
+    // console.log(userClickedPattern.length);
     if (userClickedPattern.length === gamePattern.length) {
       setTimeout(function () {
         nextSequence();
